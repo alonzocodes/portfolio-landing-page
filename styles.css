@@ -20,101 +20,25 @@
 .Pollie-5-hsla { color: hsla(180, 53, 68, 1); }
 
 body {
-    background-color: #12162a; ;
-}
-@media only screen and (min-width: 600px){
-
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.logo {
-    width: 10%;
-    margin-bottom: 3rem;
-    margin-top: .50rem;
+    background: linear-gradient( #12162a, #82D9D9, #F0F2F2);
+    margin: auto;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.header-intro {
-    font-size: 3em;
-    color: #82D9D9;
-    font-family: Bebas Neue;
-    margin-bottom: 1rem;
-    text-align: center;
-}
-
-.profile-pic {
-    width: 10%;
-    height: 10%;
-    border-radius: 85px;
-    border-style: solid;
-    border-color: #82D9D9;
-    border-width: .25em;
-}
-
-.header-info {
-    color: #F0F2F2;
-    width: 45%;
-    text-align: center;
-    font-size: 1em;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.main-title {
-    font-size: 2em;
-    color: #6FBFBF;
-    font-family: Bebas Neue;
-    text-align: center;
-}
-
-.main-info {
-    font-size: 1em;
-    color: #F0F2F2;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    width: 50%;
-}
-
-footer {
-    margin-top: 1rem;
-}
-
-.social-icon-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
-}
-
-.icons {
-    color:#82D9D9;
-    padding: 1rem;
-    font-size: 2em;
-}
-}
-
-@media only screen and (max-width: 599px){
+@media only screen and (min-width: 599px){
     nav {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-start;
+        background-color: #ffffff;
     }
     .logo {
-        width: 40%;
-        margin-bottom: 2rem;
-        margin-top: .50rem;
+        width: 10%;
+        margin: 1rem;
+    }
+
+    .nav-title {
+        font-size: 20px;
+        
     }
     
     header {
