@@ -53,21 +53,27 @@ body {
     main {
         display: flex;
         flex-direction: row;
-        align-items: flex-end;
+        align-items: 
     }
 
     .profile-img {
         width: 40%;
-        display: flex;
+        display: inline-flex;
         justify-content: flex-end;
         margin-top: 75px;
     }
     
     .profile-pic {
-        width: 40%;
-        height: 40%;
-        border-radius: 175px;
+        width: 49%;
+        height: 60%;
+        border-radius: 60rem;
         margin-top: 5rem;
+    }
+
+    .right-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
     }
 
     .aside-content {
@@ -98,6 +104,10 @@ body {
         color: #F0F2F2;
         font-size: 1em;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .twitter-box {
+        margin-left: 75px;
     }
     
     footer {
