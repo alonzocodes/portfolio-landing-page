@@ -20,7 +20,7 @@
 .Pollie-5-hsla { color: hsla(180, 53, 68, 1); }
 
 body {
-    background: linear-gradient(.25turn, #12162a, #82D9D9);
+    background: linear-gradient(.25turn, #112530, #b56f3b);
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@ body {
 
 @media only screen and (min-width: 599px){
     body {
-        background: linear-gradient(.25turn, #12162a, #82D9D9);
+        background: linear-gradient(.25turn, #112530, #6FBFBF );
         margin: auto;
         display: flex;
         flex-direction: column;
@@ -103,7 +103,7 @@ body {
         font-family: Roboto;
         margin-top: 5px;
         margin-bottom: 0;
-        color: #000000;
+        color: #eaff00;
     }
 
     .aside-info {
@@ -148,7 +148,7 @@ body {
     }
 
     .icons:hover {
-        color: #393E59;
+        color: #82D9D9;
     }
     /*
     .twitter-timeline {
