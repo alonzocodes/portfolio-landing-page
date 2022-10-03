@@ -17,19 +17,15 @@
 .Pollie-2-hsla { color: hsla(230, 21, 28, 1); }
 .Pollie-3-hsla { color: hsla(191, 8, 94, 1); }
 .Pollie-4-hsla { color: hsla(180, 38, 59, 1); }
-.Pollie-5-hsla { color: hsla(180, 53, 68, 1); }
-
-body {
-    background: linear-gradient(.25turn, #112530, #b56f3b);
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
+.Pollie-5-hsla { color: rgb(191, 230, 225); }
 
 @media only screen and (min-width: 599px){
     body {
-        background: linear-gradient(.25turn, #112530, #6FBFBF );
+       background: rgb(58,179,180);
+       background: -moz-linear-gradient(90deg, rgba(58,179,180,1) 26%, rgba(253,123,29,1) 99%);
+       background: -webkit-linear-gradient(90deg, rgba(58,179,180,1) 26%, rgba(253,123,29,1) 99%);
+       background: linear-gradient(90deg, rgba(58,179,180,1) 26%, rgba(253,123,29,1) 99%);
+       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3ab3b4",endColorstr="#fd7b1d",GradientType=1);
         margin: auto;
         display: flex;
         flex-direction: column;
@@ -54,6 +50,7 @@ body {
     .nav-title {
         font-size: 18px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
         margin-top: 1rem;
         margin-right: 1rem;
     }
@@ -71,8 +68,8 @@ body {
     }
     
     .profile-pic {
-        width: 270px;
-        height: 300px;
+        width: 30%;
+        height: 50%;
         border-radius: 15px;
         margin-top: 5rem;
     }
@@ -87,7 +84,7 @@ body {
         width: 65%;
         display: flex;
         flex-direction: column;
-        align-content: flex-start;
+        align-items: center;
         margin-left: 5rem;
     }
 
@@ -99,14 +96,17 @@ body {
     }
 
     .intro-title-two {
-        font-size: 3em;
+        text-align: center;
+        font-size: 2.5em;
         font-family: Roboto;
         margin-top: 5px;
         margin-bottom: 0;
-        color: #eaff00;
+        color: #010326;
+        text-transform: uppercase;
     }
 
     .aside-info {
+        text-align: center;
         margin-top: 5px;
         color: #F0F2F2;
         font-size: 1em;
@@ -114,7 +114,9 @@ body {
     }
 
     .twitter-box {
-        margin-left: 75px;
+        align-items: center;
+        margin-left: 150px;
+        width: 50%;
     }
     
     footer {
@@ -150,8 +152,20 @@ body {
     .icons:hover {
         color: #82D9D9;
     }
+
+    .fa-twitter:hover {
+        color: rgba(58,179,180,1);
+    }
+
+    .fa-linkedin-in:hover {
+        color: rgb(178, 223, 206);
+    }
+
+    .fa-github:hover {
+        color: rgba(253,123,29,1);
+    }
     /*
-    .twitter-timeline {
+    .twitter-timeline { 
         width: 50%;
         height: auto;
     }*/
@@ -159,123 +173,127 @@ body {
 
 @media only screen and (max-width: 400px){
     body {
-        background: linear-gradient(.25turn, #12162a, #82D9D9);
+        background: rgb(253,123,29);
+        background: -moz-linear-gradient(0deg, rgba(253,123,29,1) 1%, rgba(58,179,180,1) 74%);
+        background: -webkit-linear-gradient(0deg, rgba(253,123,29,1) 1%, rgba(58,179,180,1) 74%);
+        background: linear-gradient(0deg, rgba(253,123,29,1) 1%, rgba(58,179,180,1) 74%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fd7b1d",endColorstr="#3ab3b4",GradientType=1);
         margin: auto;
         display: flex;
         flex-direction: column;
-        min-height: 100vh;
+        min-height: vh;
+        
     }
 
     nav {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        align-items: flex-end;
         background-color: #ffffff;
     }
     .logo {
-        width: 10%;
-        margin-bottom: 1.5rem;
+        width: 15%;
+        margin-bottom: rem;
     }
 
     .social-box {
         display: flex;
+        flex-direction: row;
     }
 
     .nav-title {
-        font-size: 18px;
+        font-size: 1em;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         margin-top: 1rem;
     }
 
     main {
         display: flex;
-        flex-direction: row;
-        align-items: 
+        flex-direction: column;
+        align-items: center;
     }
 
     .profile-img {
-        width: 40%;
-        display: inline-flex;
-        justify-content: flex-end;
-        margin-top: 75px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 15px;
     }
     
     .profile-pic {
         width: 30%;
         height: 30%;
-        border-radius: 60rem;
-        margin-top: 5rem;
+        border-radius: 5rem;
+        margin-top: rem;
     }
 
     .right-content {
         display: flex;
         flex-direction: column;
-        margin-top: 100px;
+        margin-top:px;
     }
 
     .aside-content {
-        width: 60%;
+        width: %;
         display: flex;
         flex-direction: column;
-        align-content: flex-start;
-        margin-left: 5rem;
+        align-content: ;
+        margin-left: rem;
     }
 
     .intro-title {
-        font-size: 1.5em;
+        font-size: em;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        margin-bottom: 0;
+        margin-bottom: ;
         color: #ffffff;
     }
 
     .intro-title-two {
-        font-size: 3em;
+        font-size: em;
         font-family: Roboto;
-        margin-top: 5px;
-        margin-bottom: 0;
+        margin-top: px;
+        margin-bottom: ;
         color: #000000;
     }
 
     .aside-info {
-        margin-top: 5px;
+        margin-top: px;
         color: #F0F2F2;
-        font-size: 1em;
+        font-size: em;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     .twitter-box {
-        margin-left: 75px;
+        margin-left: px;
     }
     
     footer {
         display: flex;
         justify-content: center;
         background-color: #000000;
-        width: 100%;
-        height: 60px;
-        margin-top: auto;
+        width: ;
+        height: px;
+        margin-top: ;
     }
 
     .footer-info {
         color: #ffffff;
-        margin: 20px;
-        font-size: .75em;
+        margin:px;
+        font-size: em;
         font-family: Roboto;
     }
     
     .social-icon-container {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
+        flex-direction: ;
+      
         
     }
     
     .icons {
         color: #000000;
-        padding: .50rem;
-        font-size: 1.5em;
-        margin-top: 5px;
+       
+        font-size: em;
+        
     }
 
     .icons:hover {
